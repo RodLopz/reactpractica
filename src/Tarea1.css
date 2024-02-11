@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.info-personal {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.estadisticas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.stat {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Agrega una transición suave al cambio de color */
+}
+
+.stat:hover {
+    background-color: #c0392b;
+    /* Cambia el color al pasar el ratón */
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
